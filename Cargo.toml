@@ -1,0 +1,13 @@
+[package]
+name = "vidhipramaan_ai"
+version = "0.1.0"
+edition = "2021"
+description = "VidhiPramaan AI: National Digital Code and Gazette Authority, Canonical Statutory Act Versioning and Legal DLT"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
